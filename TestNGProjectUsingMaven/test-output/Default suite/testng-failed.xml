@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGPractice.lmPriority">
+      <class name="testNGPractice.GroupLogin_Assertion">
         <methods>
-          <include name="fourtTest"/>
-          <include name="thirdTest"/>
-          <include name="firstTest"/>
+          <include name="setUp"/>
+          <include name="checkdash"/>
+          <include name="verify"/>
+          <include name="searchCourse"/>
         </methods>
-      </class> <!-- testNGPractice.lmPriority -->
+      </class> <!-- testNGPractice.GroupLogin_Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
